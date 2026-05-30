@@ -706,35 +706,35 @@
           <tr><td>1</td><td>0</td><td>1</td><td class="val-1">1</td></tr>
           <tr><td>1</td><td>1</td><td>0</td><td class="val-0">0</td></tr>
           <tr><td>1</td><td>1</td><td>1</td><td class="val-1">1</td></tr>
-        </table>
+         </table>
       </div>
       <div class="kmap-wrap" style="margin-top:1rem;">
         <table class="kmap">
           <tr><th>x \ yz</th><th>00</th><th>01</th><th>11</th><th>10</th></tr>
           <tr>
+           <tr>
             <th>0</th>
+            <td class="cell-1 grp-b">1</td> <td class="cell-0">0</td>
             <td class="cell-0">0</td>
-            <td class="cell-1 grp-a">1</td>
-            <td class="cell-0">0</td>
-            <td class="cell-0">0</td>
-          </tr>
+            <td class="cell-1 grp-b grp-a">1</td> </tr>
           <tr>
             <th>1</th>
-            <td class="cell-1 grp-b">1</td>
-            <td class="cell-1 grp-a">1</td>
-            <td class="cell-1 grp-c">1</td>
-            <td class="cell-1 grp-b">1</td>
+            <td class="cell-0">0</td>
+            <td class="cell-0">0</td>
+            <td class="cell-1 grp-c">1</td> <td class="cell-1 grp-a grp-c">1</td> </tr>
           </tr>
         </table>
       </div>
       <div class="legend">
-        <div class="legend-item"><div class="legend-dot" style="background:rgba(255,107,107,0.5);border:1px solid #ff6b6b;"></div> Pair y'z: m₁,m₅</div>
-        <div class="legend-item"><div class="legend-dot" style="background:rgba(92,184,255,0.4);border:1px solid #5cb8ff;"></div> Quad xy': m₄,m₅,m₄(wrap),m₆(wrap) = xy'</div>
-        <div class="legend-item"><div class="legend-dot" style="background:rgba(255,179,71,0.4);border:1px solid #ffb347;"></div> Pair xz: m₅,m₇</div>
+        <div class="legend-item"><div class="legend-dot" style="background:rgba(255,107,107,0.5);border:1px solid #ff6b6b;"></div> Pair yz': m₂, m₆</div>
+        <div class="legend-item"><div class="legend-dot" style="background:rgba(92,184,255,0.4);border:1px solid #5cb8ff;"></div> Pair x'z' (wrap): m₀, m₂</div>
+        <div class="legend-item"><div class="legend-dot" style="background:rgba(255,179,71,0.4);border:1px solid #ffb347;"></div> Pair xy: m₆, m₇</div>
       </div>
       <div class="result-box">
         <span class="label">HASIL PENYEDERHANAAN</span>
-        <div class="formula">F(x,y,z) = y'z + xy' + xz</div>
+        <div class="formula">F(x,y,z) = F(x,y,z) = x'z' + yz' + xy</div>
+        <span class="label">HASIL PENYEDERHANAAN</span>
+        <div class="formula">F(x,y,z) = x'z' + yz' + xy</div>
       </div>
     </div>
   </div>
